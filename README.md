@@ -1,15 +1,9 @@
-# js-lab-61
-### Lab61 Object: Clone Object1
-- ให้สร้าง Object ที่มี key และ value เหมือน notebook 
-- โดยวิธี for ... in loop และ Object.assign
+# js-lab-62
+### Lab62 Object: Clone Object2
+- ให้สร้าง Object ที่มี property เหมือน state1
+- แต่ loading ให้มีค่าเป็น false point มีค่า 75
+- และให้เพิ่ม property success เข้าไปโดยให้มีค่าเป็น true
 
 ```JavaScript
-const notebook = {
-  brand: 'ASUS',
-  model: 'Vivobook D413IA-EB303TS',
-  processor: 'AMD Ryzen 7 4700U 3.6GHz',
-  graphics: 'Integrated Graphics : AMD Radeon Graphics',
-  ram: '8GB DDR4 Onboard',
-  storage: '512GB PCIe NVMe M.2 SSD'
-};
+const state1 = { username: 'john', point: 100, loading: true };
 ```
